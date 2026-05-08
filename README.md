@@ -14,18 +14,18 @@ A full-featured web application for managing university events. Students can reg
 
 ## Features Implemented
 
-| # | Feature | Status |
-|---|---------|--------|
-| 1 | User Registration & Login | ✅ |
-| 2 | Session Control & Logout | ✅ |
-| 3 | Data Entry via Forms | ✅ |
-| 4 | Input Validation with Feedback | ✅ |
-| 5 | Dynamic Data Display | ✅ |
-| 6 | Search & Filter Events | ✅ |
-| 7 | Edit Existing Records | ✅ |
-| 8 | Delete Records | ✅ |
-| 9 | Role-Based Access (Student / Admin) | ✅ |
-| 10 | Persistent MySQL Database | ✅ |
+| # | Feature |
+|---|---------|
+| 1 | User Registration & Login |
+| 2 | Session Control & Logout |
+| 3 | Data Entry via Forms |
+| 4 | Input Validation with Feedback |
+| 5 | Dynamic Data Display |
+| 6 | Search & Filter Events |
+| 7 | Edit Existing Records |
+| 8 | Delete Records |
+| 9 | Role-Based Access (Student / Admin) |
+| 10 | Persistent MySQL Database |
 
 ---
 
@@ -77,35 +77,7 @@ http://localhost/event_management/
 
 ---
 
-## Project Structure
 
-```
-event_management/
-├── index.php               ← Login page
-├── register.php            ← Student registration
-├── logout.php              ← Logout handler
-├── event_db.sql            ← Database dump
-├── includes/
-│   ├── config.php          ← DB connection & helpers
-│   ├── auth.php            ← Login/register functions
-│   ├── student_sidebar.php ← Student nav partial
-│   └── admin_sidebar.php   ← Admin nav partial
-├── student/
-│   ├── dashboard.php       ← Student home
-│   ├── events.php          ← Browse & search events
-│   ├── rsvp_action.php     ← RSVP / cancel handler
-│   ├── my_rsvps.php        ← RSVP history
-│   └── profile.php         ← Edit profile
-├── admin/
-│   ├── dashboard.php       ← Admin home & stats
-│   ├── events.php          ← List/search/delete events
-│   ├── create_event.php    ← Create new event
-│   ├── edit_event.php      ← Edit event
-│   ├── attendees.php       ← View event attendees
-│   └── users.php           ← Manage all users
-└── assets/
-    └── css/
-        └── style.css       ← Global stylesheet
 ```
 
 ---
