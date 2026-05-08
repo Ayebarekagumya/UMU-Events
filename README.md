@@ -47,9 +47,13 @@ Place the entire `event_management` folder inside your web server root:
 2.Open MySQL Workbench or MySQL Command Line Client.
 
 3.Create a new database named:
+
 ```CREATE DATABASE event_management;```
+
 Select the database:
+
 ```USE event_management;```
+
 Import the database dump file event_db.sql.
 
 ### Step 3 – Configure Database Connection (if needed)
