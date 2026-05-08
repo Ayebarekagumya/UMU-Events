@@ -2,8 +2,8 @@
 // includes/config.php
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', 'Litokoto01$');
+define('DB_USER', 'your db username');
+define('DB_PASS', 'your db password');
 define('DB_NAME', 'event_management');
 
 // Start session if not already started
