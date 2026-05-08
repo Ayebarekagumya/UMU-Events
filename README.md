@@ -48,12 +48,14 @@ Place the entire `event_management` folder inside your web server root:
 
 3.Create a new database named:
 
-```CREATE DATABASE event_management;```
+```
+CREATE DATABASE event_management;
+```
 
 Select the database:
-
-```USE event_management;```
-
+```
+USE event_management;
+```
 Import the database dump file event_db.sql.
 
 ### Step 3 – Configure Database Connection (if needed)
