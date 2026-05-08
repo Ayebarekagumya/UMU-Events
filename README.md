@@ -70,7 +70,7 @@ http://localhost/event_management/
 
 | Role | Email | Password |
 |------|-------|----------|
-| **Admin** | admin@umu.ac.ug | admin123 |
+| **Admin** | admin2@umu.ac.ug | admin123 |
 | **Student** | student@umu.ac.ug | student123 |
 
 > You can also register a new student account from the registration page.
