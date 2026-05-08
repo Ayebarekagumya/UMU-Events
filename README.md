@@ -42,12 +42,13 @@ Place the entire `event_management` folder inside your web server root:
 - **WAMP:** `C:/wamp64/www/event_management`
 
 ### Step 2 – Import the Database
-1. Start **Apache** and **MySQL** in XAMPP/WAMP
-2. Open your browser and go to: `http://localhost/phpmyadmin`
-3. Click **New** to create a new database named `event_management`
-4. Select the new database, click the **Import** tab
-5. Click **Choose File**, select `event_db.sql` from the project root
-6. Click **Go** to import
+1.Make sure your local MySQL server is running.
+2.Open MySQL Workbench or MySQL Command Line Client.
+3.Create a new database named:
+`CREATE DATABASE event_management;`
+Select the database:
+`USE event_management;`
+Import the database dump file event_db.sql.
 
 ### Step 3 – Configure Database Connection (if needed)
 Open `includes/config.php` and update these values if your setup differs:
