@@ -101,4 +101,4 @@ http://localhost/event_management/
 
 ---
 
-*Submitted for CSC 2202 End-of-Semester Examination*
+
